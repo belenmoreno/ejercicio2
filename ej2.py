@@ -1,7 +1,6 @@
 def main():
     monedas = [1, 2, 5]
     monedas_usadas = [0, 0, 0]
-    #print("monedas_usadas 2 vale: " + str(monedas_usadas[2]))
     cantidad = int(input("introduce una cantidad: \n"))
 
     monedas_usadas[2] = int((cantidad / monedas[2]))
